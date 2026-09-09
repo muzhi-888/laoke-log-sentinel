@@ -1,0 +1,36 @@
+{
+  "name": "laoke-log-sentinel",
+  "slug": "laoke-log-sentinel",
+  "displayName": "日志异常巡检官",
+  "version": "1.0.0",
+  "author": "局内人·老K",
+  "category": "开发编程",
+  "tags": [
+    "日志分析",
+    "故障排查",
+    "运维",
+    "根因定位",
+    "异常检测",
+    "SRE"
+  ],
+  "description": "重型日志异常巡检助手，把几十万行杂乱日志压成一页能看懂的巡检报告，配套主流日志格式速查、异常分级、错误模板归并方法与 20 类故障特征库，并内置纯标准库扫描器做多格式解析、堆栈合并、错误模板聚合、时段突刺定位与巡检报告生成",
+  "compatibility": "通用（支持 Skill 的 Agent：Claude Code / CodeBuddy / DeepSeek / WorkBuddy 等）",
+  "license": "MIT",
+  "homepage": "https://muzhi-888.github.io/ju-nei-ren-lao-k/",
+  "repository": "https://github.com/muzhi-888/laoke-log-sentinel",
+  "createdAt": "2026-09-09",
+  "entry": "SKILL.md",
+  "scripts": [
+    "scripts/log_scan.py"
+  ],
+  "references": [
+    "references/01_主流日志格式速查.md",
+    "references/02_日志级别与异常分级.md",
+    "references/03_错误模板归并方法.md",
+    "references/04_常见故障特征库.md",
+    "references/05_巡检报告与闭环.md"
+  ],
+  "hooks": [
+    "hooks/guardrail.md"
+  ]
+}
